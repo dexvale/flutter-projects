@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+void main(){
+  runApp(const MaterialApp(
+    home: SpotifyClonePAge(),
+  ));
+}
+
 class SpotifyClonePAge extends StatelessWidget {
   const SpotifyClonePAge({super.key});
 
